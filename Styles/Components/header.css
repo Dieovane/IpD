@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 1.25rem;
+    padding-block: 1.25rem;
+}
+
+.logotipo {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.header__menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.menu {
+    color: white;
+    text-decoration: none;
+}
+
+.header__menu .button {
+    padding: 10px 20px;
+    background-color: #065cb896;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
